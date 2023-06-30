@@ -9,6 +9,10 @@
             Padding="30,0"
             VerticalOptions="Center">
 
+            <ScrollView HeightRequest="200" WidthRequest="200" HorizontalScrollBarVisibility="Always" VerticalScrollBarVisibility="Always" Background="Yellow" Padding="20">
+                <Grid BackgroundColor="Red" HeightRequest="400" WidthRequest="400"/>
+            </ScrollView>
+
             <Image
                 Source="dotnet_bot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
